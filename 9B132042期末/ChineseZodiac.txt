@@ -1,0 +1,27 @@
+/*生肖程式，Chinese Zodiac
+執行方式
+select DBO.ChineseZodiacF('2022/01/01') AS 生肖
+GO
+DECLARE @Resultout NVARCHAR(20)
+EXEC ChineseZodiacP '2023/2/1',@Resultout OUTPUT
+SELECT @Resultout AS 生肖
+
+*/
+
+CREATE FUNCTION ChineseZodiacF(@d date)/*Chinese Zodiac生肖1912鼠*/
+RETURNS nvarchar(100)
+AS 
+BEGIN
+	RETURN  SUBSTRING(N'鼠牛虎兔龍蛇馬羊猴雞狗豬',((DATEPART(YY,@d)-1911) % 12),1)
+END;
+
+GO
+
+CREATE PROCEDURE ChineseZodiacP
+/*預設程序，Chinese Zodiac生肖*/
+@D DATE,
+@Resultout nvarchar(2) OUTPUT
+AS
+BEGIN
+    SET @Resultout= SUBSTRING(N'鼠牛虎兔龍蛇馬羊猴雞狗豬',((DATEPART(YY,@d)-1911) % 12),1);
+END;
