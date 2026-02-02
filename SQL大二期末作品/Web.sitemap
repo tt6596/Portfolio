@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title="資料庫管理系統"  description="">
+		<siteMapNode url="" title="練習"  description="練習">
+			<siteMapNode url="javascript:window.open('CZF.aspx')" title="生肖查詢(SQL)"  description="練習1" />
+			<siteMapNode url="~/CZFP.aspx" title="生肖查詢(函數_內儲程序)"  description="練習2" />
+		</siteMapNode>
+      <siteMapNode url="" title="作業"  description="作業">
+		<siteMapNode url="~/星座.aspx" title="星座查詢(函數_內儲程序)"  description="作業1星座(112/12/13)" />
+		<siteMapNode url="~/CC.aspx" title="CC籤詩"  description="CC籤詩系統"/>
+        <siteMapNode url="~/差異.pdf" title="SQL與python差異"  description="SQL與python差異比較"  />
+        <siteMapNode url="~/比較.xlsx" title="三個函數比較"  description="差異比較"  />
+        <siteMapNode url="~/SQL語法.docx" title="SQL筆記"  description="CC的SQL筆記"  />
+        <siteMapNode url="~/CCDelayMil.aspx" title="勤益停車證申請(表格式)"  description="勤益停車證申請(表格式)"/>
+        <siteMapNode url="~/CCDelayMilDetail.aspx" title="勤益停車證申請(單筆修改)"  description="勤益停車證申請(單筆修改)"/>
+        <siteMapNode url="~/CCDelayMilQuery.aspx" title="勤益停車證申請(查詢)"  description="勤益停車證申請(查詢)"/>
+        <siteMapNode url="~/CCDelayMilLock.aspx" title="勤益停車證申請(LOCK)"  description="勤益停車證申請(LOCK)"/>
+       
+      </siteMapNode>
+	  <siteMapNode url="" title="考試"  description="考試">
+		<siteMapNode url="javascript:window.open('資料庫管理系統小考１解答.PDF')" title="小考一"  description="小考一(112/11/03)"/>
+		<siteMapNode url="javascript:window.open('資料庫管理系統期中考解答.PDF'); void(0);" title="期中考"  description="作業1(112/11/10)"  />
+	  </siteMapNode>
+	  <siteMapNode url="" title="學生申請暫緩徵集"  description="學生申請暫緩徵集">
+		<siteMapNode url="~/DelayMil.aspx" title="學生申請暫緩徵集(表格式)"  description="學生申請暫緩徵集(表格式)"/>
+		<siteMapNode url="~/DelayMilDetail.aspx" title="學生申請暫緩徵集(單筆修改)"  description="學生申請暫緩徵集(單筆修改)"/>
+		<siteMapNode url="~/DelayMilQuery.aspx" title="學生申請暫緩徵集(查詢)"  description="學生申請暫緩徵集(查詢)"/>
+		<siteMapNode url="~/DelayMilLock.aspx" title="學生申請暫緩徵集(LOCK)"  description="學生申請暫緩徵集(LOCK)"/>
+	  </siteMapNode>
+      <siteMapNode url="" title="使用者管理"  description="使用者管理">
+        <siteMapNode url="userdetailviews.aspx" title="使用者單筆管理"  description="使用者單筆管理" />
+        <siteMapNode url="userma.aspx" title="使用者清冊管理"  description="使用者清冊管理" />
+      </siteMapNode>
+      <siteMapNode url="" title="其他"  description="">
+		<siteMapNode url="~/Aboutus.aspx" title="關於"  description="" />
+		<siteMapNode url="~/9B132042操作手冊.docx" title="操作手冊"  description="操作手冊" />
+		<siteMapNode url="javascript:window.open('考試假請假補考要點.pdf')" title="考試請假"  description="考試假請假" />
+		<siteMapNode url="javascript:window.open('學術倫理_大學生宣導版.pdf')" title="學術倫理"  description="學術倫理" />
+		<siteMapNode url="javascript:window.open('上課LINE_群組.jpg')" title="上課LINE_群組"  description="上課LINE_群組" />
+        <!--<siteMapNode url="login.aspx" title="登出"  description="" />-->
+      </siteMapNode>
+	  <siteMapNode url="" title="參考資料"  description="參考資料">
+		<siteMapNode url="javascript:window.open('Adonetrchitecture.jpg')" title="資料庫存取架構"  description="資料庫存取架構"  />
+		<siteMapNode url="javascript:window.open('干支生肖.jpg')" title="干支生肖"  description="干支生肖"  />
+	    <siteMapNode url="javascript:window.open('https://tool.httpcn.com/Html/KangXi/35/KOILTBAZMEXVMEPWF.shtml')" title="康熙字典"  description="康熙字典"  />
+		 <siteMapNode url="javascript:window.open('新竹農民曆_2023.pdf')" title="農民曆"  description="農民曆"  />
+        <siteMapNode url="javascript:window.open('https://www.lnka.tw/html/topic/417.html')" title="八十一數吉凶"  description="八十一數吉凶"  />
+		<siteMapNode url="javascript:window.open('CreateTable.txt')" title="建資料表"  description="建資料表"  />
+        <siteMapNode url="javascript:window.open('歷年期中考範例.jpg')" title="歷年期中考範例"  description="歷年期中考範例" />
+		<siteMapNode url="~/PythonExample.zip" title="Python範例"  description="Python範例" />
+	  </siteMapNode>
+      <siteMapNode url="login.aspx" title="登出"  description="" />
+	</siteMapNode>
+</siteMap>
